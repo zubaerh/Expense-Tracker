@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "666783517435",
+    "project_id": "expensetracker-9a11d",
+    "storage_bucket": "expensetracker-9a11d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666783517435:android:1066f693cc9360b1a93e5e",
+        "android_client_info": {
+          "package_name": "com.sorovi.android.firebasebatch1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666783517435-aodstsbvaj9hd0tfrk7l0hs643aijpfs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUJbcjtEHJnjgsEAZs4pN6neq0dxPWrvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666783517435-aodstsbvaj9hd0tfrk7l0hs643aijpfs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

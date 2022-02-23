@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".LoginFragment">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome User"
+            android:textSize="30sp"/>
+
+
+        <EditText
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint="Enter Your Email" />
+
+        <EditText
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:id="@+id/passwordET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="Enter Your Password" />
+
+        <Button
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:id="@+id/loginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Login" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New User?      " />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:id="@+id/signupBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register" />
+        </LinearLayout>
+
+        <TextView
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:id="@+id/errorMsgTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+    </LinearLayout>
+</layout>
